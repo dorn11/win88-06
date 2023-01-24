@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+header{
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px 7%;
+    background-color: rgb(12, 166, 212);
+    transition: ease .40s;
+
+}
+.logo img{
+   width: 30%;
+}
+.logo1 img{
+    width: 15%;
+}
+.body-link{
+    overflow: hidden;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius:4px ;
+    transition: ease .40s;
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    
+}
+.navbar a:hover{
+    background: rgb(248, 246, 246);
+    color: var(--text-color);
+    box-shadow: 5px 10px 30px rgba(85, 85, 85, 0.2);
+    border-radius: 4px;
+
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* background-color: rgb(164, 170, 170); */
+}
+.slide{
+    width: 100%;
+}
+.slide img{
+    width: 100%;
+}
+.contant-A{
+    width: 70%;
+    /* background-color: aqua; */
+}
+.icon{
+    width: 50%;
+}
+.icon img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.title{
+    font-size: 25px;
+   padding: 0 16%;
+    margin-top: 10%;
+}
+.btn{
+    background-color: rgb(4, 192, 98);
+    padding: 10px;
+    /* width: 12%; */
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 20px; 
+    color: #f1ecec;
+}
+.btn a{
+    color: aliceblue;
+    padding: 35px;
+}
+.box{
+    width: 50%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    padding:0 50px ;
+
+}
+.rigth{
+    width: 50%;
+    padding: 0 20px;
+}
+.slide{
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.diss{
+    
+    padding: 0 10px;
+}
+.dis1{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.boxza{
+    border: 1px solid black;
+    padding: 30px;
+}
+/* contant-B */
+.contant-B{
+    width: 30%;
+    /* background-color: aqua; */
+}
+.dis{
+    padding: 0 30px;
+}
+.dis2{
+    font-size: 25px;
+    margin-top: 10%;
+    padding: 0 20px;
+}
+.dis3{
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.icon-A{
+    width: 100%;
+    display: flex;
+}
+.icon-AC{
+    width: 30%;
+    /* background-color: aqua; */
+}
+.icon-AC img{
+    width: 100%;
+    padding: 20px;
+}
+.icon-AB{
+    width: 70%;
+    padding: 30px 0;
+}
+.icon-AB{
+    width: 20%;
+}
+.icon-AB img{
+    width: 70%;
+}
+.box2{
+    width: 100%;
+    display: flex;
+}
+.Box1{
+    width: 50%;
+}
+.icon-AB{
+    width: 80%;
+}
+.icon-AB img{
+width: 100%;
+margin-left: 12%;
+}
+.icon-AA{
+    padding: 5px 20px;
+}
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  /* background-color: rgba(0,0,0, 0.9); */
+  overflow-x: hidden;
+  transition: 0.7s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1ecec;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.sp{
+    display: none;
+}

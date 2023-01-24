@@ -1,0 +1,222 @@
+@media (min-width: 320px) and (max-width: 480px){
+
+    .logo1 img {
+    width: 20%;
+     }
+     .navbar {
+    position: relative;
+    display: none;
+     }
+    .sp {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    ol, ul {
+        padding-left: 2rem;
+        display: none;
+    }
+    .main {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        font-size: 19px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .icon img {
+        width: 80%;
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .contant-A {
+        width: 100%;
+    }
+    .box {
+        width: 1000%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        display: none;
+    }
+    .icon {
+        width: 60%;
+    }
+    .Box1 {
+    width: 100%;
+    }
+
+    .box2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    }
+    .contant-B {
+        width: 100%;
+    }
+    .icon-AC {
+        width: 70%;
+    }
+    .btn-success {
+        color: rgb(255, 255, 255);
+        background-color: rgb(25, 135, 84);
+        border-color: rgb(25, 135, 84);
+        margin-left: 20%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+
+    .logo1 img {
+    width: 20%;
+     }
+     .navbar {
+    display: none;
+     }
+     .left {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .sp {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    ol, ul {
+        padding-left: 2rem;
+        display: none;
+    }
+    .icon {
+        width: 100%;
+    }
+    .box {
+        width: 100%;
+        display: flex;
+    }
+    .left {
+        width: 90%;
+        /* padding: 0 50px; */
+    }
+    .icon img {
+        width: 50%;
+        margin-left: 20%;
+
+    }
+    .box2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .icon-AB {
+        width: 100%;
+    }
+    .Box1 {
+        width: 100%;
+        /* border: 1px solid red; */
+        /* background-color: blue; */
+    }
+    .icon-AB {
+        width: 50%;
+        margin-left:20% ;
+    }
+    .icon-AA {
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .icon-A {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .icon-AC {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .btn{
+        /* font-size: 12px; */
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .logo1 img {
+        width: 20%;
+         }
+         .navbar {
+        display: none;
+         }
+        .sp {
+            display: block;
+        }
+        .navbar {
+            display: none;
+        }
+        ol, ul {
+            padding-left: 2rem;
+            display: none;
+        }
+        .icon {
+            width: 100%;
+        }
+        .icon img {
+            width: 30%;
+            margin-left: 30%;
+            margin-top: 5%;
+        }
+        .box {
+            width: 100%;
+            display: flex;
+        }
+        .icon-AC {
+            width: 100%;
+        }
+        .btn-success {
+            color: #fff;
+            background-color: #198754;
+            border-color: #198754;
+            margin-left: 25%;
+        }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+    .logo1 img {
+        width: 20%;
+         }
+         .navbar {
+        display: none;
+         }
+        .sp {
+            display: block;
+        }
+        .navbar {
+            display: none;
+        }
+        ol, ul {
+            padding-left: 2rem;
+            display: none;
+        }
+        .icon {
+            width: 100%;
+        }
+        .icon img {
+            width: 30%;
+            margin-left: 30%;
+            margin-top: 5%;
+        }
+        .box {
+            width: 100%;
+            display: flex;
+        }
+        .icon-AC {
+            width: 100%;
+        }
+        .btn-success {
+            color: #fff;
+            background-color: #198754;
+            border-color: #198754;
+            margin-left: 30%;
+        }
+}
